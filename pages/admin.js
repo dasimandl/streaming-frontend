@@ -1,4 +1,4 @@
-import LiveStreams from "../components/styles/LiveStreams";
+import LiveStreams from "../components/LiveStreams";
 
 const Admin = () => (
   <div>
