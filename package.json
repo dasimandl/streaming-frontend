@@ -1,0 +1,33 @@
+{
+  "name": "streaming-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasimandl/streaming-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasimandl/streaming-frontend/issues"
+  },
+  "homepage": "https://github.com/dasimandl/streaming-frontend#readme",
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "apollo-client": "^2.5.1",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "next": "^8.1.0",
+    "next-with-apollo": "^3.4.0",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.5",
+    "react-dom": "^16.8.6"
+  }
+}
