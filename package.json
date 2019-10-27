@@ -28,6 +28,7 @@
     "next-with-apollo": "^3.4.0",
     "react": "^16.8.6",
     "react-apollo": "^2.5.5",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-player": "^1.13.0"
   }
 }
