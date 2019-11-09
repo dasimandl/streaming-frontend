@@ -47,13 +47,16 @@ const useStyles = makeStyles({
   },
   media: {
     height: 200
+  },
+  cardList: {
+    display: "flex"
   }
 });
 
 export default function LiveStreams() {
   const styles = useStyles();
   return (
-    <div>
+    <div >
       <Query query={ALL_LIVESTREAMS_QUERY}>
         {({ data: { liveStreams } }, error, loading) => {
           if (loading) return <p>Loading...</p>;
